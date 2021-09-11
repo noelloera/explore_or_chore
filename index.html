@@ -1,73 +1,106 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Chore Door!</title>
+    <title>Explore or Chore?</title>
     <!--This links the CSS style sheet-->
-    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link href="./style.css" rel="stylesheet" type="text/css" />
     <!--This adds a font family to the CSS style sheet-->
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
-    <!--This links the JS script to HTML-->
-
-    
-    
-    
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Ecplore or Chore guessing game" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   </head>
 
   <body>
     <!--Heading banner parent div object-->
     <div class="header">
       <!--Logo image-->
-      <img id="" class="" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/logo.svg">
+      <h1>Explore or Chore?</h1>
     </div>
-    
-    
 
     <!--Instructions parent div object-->
     <div class="title-row">
-      <img id="" class="" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/star.svg">
+      <img
+        id=""
+        class=""
+        src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/star.svg"
+      />
       <p class="instructions-title">Instructions</p>
-      <img id="" class="" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/star.svg">
+      <img
+        id=""
+        class=""
+        src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/star.svg"
+      />
     </div>
-    
+
     <!--Table rules element-->
     <table class="instructions-row">
       <!--Row 1-->
       <tr>
         <td class="instructions-number">1</td>
-        <td class="instructions-text">Hiding behind one of these doors is the ChoreBot.</td>
+        <td class="instructions-text">
+          Inside one of these doors there is a robot that is waiting to give you
+          a chore.
+        </td>
       </tr>
       <!--Row 2-->
       <tr>
         <td class="instructions-number">2</td>
-        <td class="instructions-text">Your mission is to open all of the doors without running into the ChoreBot.</td>
+        <td class="instructions-text">
+          Your goal is to open the doors that have getaways instead of the chore
+          robot.
+        </td>
       </tr>
-  		<!--Row 3-->
+      <!--Row 3-->
       <tr>
         <td class="instructions-number">3</td>
-        <td class="instructions-text">If you manage to avoid the ChoreBot until you open the very last door, you win!</td>       
+        <td class="instructions-text">
+          If you manage to get both vacation getaways and the chore robot last
+          you win!!
+        </td>
       </tr>
       <!--Row 4-->
       <tr>
         <td class="instructions-number">4</td>
-        <td class="instructions-text">See if you can score a winning streak!</td>       
+        <td class="instructions-text">
+          See if you can score a winning streak!
+        </td>
       </tr>
     </table>
-    
-    
+
     <!--Doors parent div object-->
-    <div class='door-row'>
+    <div class="door-row">
       <!--Image of 1st door-->
-      <img id="door1" class="door-frame" src='https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg' alt='This is an image of a door'>
+      <img
+        id="door1"
+        class="door-frame"
+        src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg"
+        alt="This is an image of a door"
+      />
       <!--Image of the 2nd door-->
-      <img id="door2" class="door-frame" src='https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg' alt='This is an image of a door'>
+      <img
+        id="door2"
+        class="door-frame"
+        src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg"
+        alt="This is an image of a door"
+      />
       <!--Image of the 3rd door-->
-       <img id="door3" class="door-frame" src='https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg' alt='This is an image of a door'>
+      <img
+        id="door3"
+        class="door-frame"
+        src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg"
+        alt="This is an image of a door"
+      />
     </div>
-    
-    <div id="start" class="start-row">Good Luck!</div>
-    
-    
-    
+
+    <div id="start" class="start-row">Click to Start!</div>
   </body>
-  <script type='text/javascript' src='script.js'></script>
+  <script type="text/javascript" src="script.js"></script>
 </html>

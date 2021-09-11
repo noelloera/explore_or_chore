@@ -1,17 +1,22 @@
-*{
-  /*border: 1px solid red;*/
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  background-color: #b0c4de;
-  margin: 0px;
+  background-color: #4b74b1;
 }
 
 .header {
-  background-color: #dda0dd;
+  background-color: #e605e6;
   text-align: center;
+  height: 4rem;
+  line-height: 4rem;
 }
-
+.header h1 {
+  font-family: "Work Sans";
+  color: #fff;
+}
 .title-row {
   margin-top: 42px;
   margin-bottom: 21px;
@@ -21,9 +26,8 @@ body {
 .instructions-title {
   display: inline;
   font-size: 25px;
-  color: #00ffff;
+  color: #adfdfd;
   font-family: "Work Sans";
-  text-shadow: -1px 0 black;
 }
 
 .instructions-row {
@@ -35,8 +39,7 @@ body {
   padding-right: 25 px;
   font-family: "Work Sans";
   font-size: 25px;
-  color: #00ffff;
-  text-shadow: -1px 0 black;
+  color: #adfdfd;
 }
 
 .instructions-text {
@@ -44,7 +47,6 @@ body {
   font-family: "Work Sans";
   font-size: 17px;
   color: #fff;
-  text-shadow: -1px 0 black;
 }
 
 .door-row {
@@ -61,7 +63,7 @@ body {
   width: 120px;
   height: 50px;
   font-family: "Work Sans";
-  background-color: navy;
+  background-color: #e605e6;
   padding-top: 10px;
   font-size: 18px;
   text-align: center;

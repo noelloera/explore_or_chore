@@ -88,16 +88,12 @@ function play(door) {
 }
 
 //This function executes when the number of doors is zero
-async function gameOver(status) {
+function gameOver(status) {
   if (status === "win") {
-    alert("W I N N E R");
     startButton.innerHTML = "You win! Play again?";
     currentlyPlaying = false;
-  }
-  if (status === " ") {
-    alert("You lose...");
-
-    startButton.innerHTML = "Game Over, Click to play again";
+  } else {
+    startButton.innerHTML = "Game Over! Play Again?";
     currentlyPlaying = false;
   }
 }
